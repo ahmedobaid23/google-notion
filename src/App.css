@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  margin: 0 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  input, textarea {
+    width: 50%;
+  }
+
+  button {
+    width: 50%;
+  }
+}
